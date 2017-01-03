@@ -1,0 +1,9 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+dcs_user_security:
+    resource: "@DCSSecurityAuthFormBundle/Resources/config/routing/security.xml"
+
+dcs_user_password_reset:
+    resource: "@DCSPasswordResetExplainViewBundle/Resources/config/routing/password_reset.xml"
